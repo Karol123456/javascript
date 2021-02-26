@@ -4,14 +4,6 @@ arr.forEach(arr =>{
     console.log(arr)
 })
 
-const sprawdzanie = arr.filter(item => {
-    if(item > 1){
-        return item
-    }
-})
-
-console.log(sprawdzanie)
-
 const indexDlaJana = arr.find((item,index)=>{
 if(item === "Jan"){
     return index
@@ -19,3 +11,6 @@ if(item === "Jan"){
 })
 
 console.log(indexDlaJana)
+
+const sprawdzanieArr = arr.some(item => item > 1)
+console.log(sprawdzanieArr)
