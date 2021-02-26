@@ -14,3 +14,4 @@ console.log(indexDlaJana)
 
 const sprawdzanieArr = arr.some(item => item > 1)
 console.log(sprawdzanieArr)
+
