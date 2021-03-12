@@ -15,3 +15,12 @@ console.log(indexDlaJana)
 const sprawdzanieArr = arr.some(item => item > 1)
 console.log(sprawdzanieArr)
 
+const obj = {
+    name: "Jan",
+    age: 12
+}
+
+console.log(obj.name)
+
+const arrWithObj = [obj]
+console.log(arrWithObj[0].name)
